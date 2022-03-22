@@ -10,6 +10,7 @@ const Cards = ({ nombre }) => {
         )
     }, []);
 
+    console.log('hola');
     const imgGif = async () => {
         const url = 'https://api.giphy.com/v1/gifs/search?q=pokemon&limit=10&api_key=n0LZOMFklX13NPYKg0YfrrFR4v2yDmZ4'
         const resp = await fetch(url)
